@@ -39,4 +39,4 @@ If this policy changes, the updated version will be posted at this URL with a ne
 
 ## Contact
 
-Questions? Open an issue at [github.com/raakanin/tidyr](https://github.com/raakanin/tidyr) or email raakanin@gmail.com.
+Questions? Open an issue at [github.com/GaiMSdev/tidyr](https://github.com/GaiMSdev/tidyr) or email raakanin@gmail.com.

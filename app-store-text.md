@@ -65,7 +65,7 @@ $9.99 (engangs)
 4+
 
 ## Support-URL
-https://github.com/raakanin/tidyr (oppdater med riktig URL)
+https://github.com/GaiMSdev/tidyr
 
 ## Privacy Policy-URL
-https://raakanin.github.io/tidyr/privacy (oppdater med riktig URL)
+https://gaimsdev.github.io/tidyr/
