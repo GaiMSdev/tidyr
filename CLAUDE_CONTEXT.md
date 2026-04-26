@@ -68,7 +68,7 @@ Rules/History bruker `.tag()` + `.onTapGesture` — NavigationLink fungerer ikke
 | Fase | Innhold | Status |
 |------|---------|--------|
 | Phase 1–8 | Kjerne, AI, Rules, History, Obsidian, Plex, UX-polish | ✅ Ferdig |
-| Phase 9 | App Store-prep | 🔄 Neste |
+| Phase 9 | App Store-prep | 🔄 Pågår |
 
 ---
 
@@ -77,7 +77,7 @@ Rules/History bruker `.tag()` + `.onTapGesture` — NavigationLink fungerer ikke
 1. **App-ikon** — SVG-design ferdig på `icon-design.svg` i prosjektmappen. Konsept: 5 hvite stigende søyler (sort-metafor) + gull sparkle (AI) + "tidyr" i hvit bold tekst, på blå→lilla gradient. Trenger eksport til PNG 1024×1024 → legges i `Assets.xcassets/AppIcon.appiconset/`. Konverter med: `rsvg-convert -w 1024 -h 1024 icon-design.svg -o icon-1024.png` (krever librsvg: `brew install librsvg`).
 2. **Bundle ID** — `com.tidyr.app` (bestemt). Sett i Xcode.
 3. **Versjon** — Sett versjon 1.0 og build 1 i Xcode.
-4. **Privacy policy** — Kreves av App Store. Tidyr sender ingen brukerdata til egne servere. Enkel side holder (GitHub Pages).
+4. **Privacy policy** — ✅ Publisert på https://gaimsdev.github.io/tidyr/ (GitHub Pages, repo GaiMSdev/tidyr, docs/index.html)
 5. **App Store-tekst** — Tittel, undertittel (30 tegn), beskrivelse (4000 tegn), nøkkelord (100 tegn). Utkast finnes i samtalehistorikk.
 6. **Screenshots** — Minimum 1 per skjermstørrelse. Mac: 1280×800 eller 1440×900.
 7. **TestFlight** — Beta til 3–5 testbrukere før innsending.
