@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F2730EAA668BE17EE6696C /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC947C808321B8C5B709B74 /* AnalysisView.swift */; };
+		21A68EAF18E35CE8D1D170CC /* PlexLibraryDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E528F165D9F4A59872991376 /* PlexLibraryDetector.swift */; };
+		2814BC372AAD79C56FD54E19 /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C73962192F492216B8C112 /* GeminiService.swift */; };
+		317F9B3BFB02859353394498 /* ObsidianLinkRepairer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800972B65C33355D199D847E /* ObsidianLinkRepairer.swift */; };
+		3EF677C92C3602E74921C962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D575EA0B35CD430F4C82E9 /* Assets.xcassets */; };
+		4D832489CAD5CC573B637CC1 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D68C8655FA3763D0630E96C /* RulesView.swift */; };
+		4FB5B89C7006D50CEB2DF31E /* AnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8902335F377F7486D4D143 /* AnalysisService.swift */; };
+		5F8FD0DAFB9CD57D75CAAF4F /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88B8E7B69A11CBFA99DE3C /* HistoryView.swift */; };
+		613AF008D1E0A9333978CC9E /* RuleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB879964CCFF563516C327E2 /* RuleStore.swift */; };
+		63B6F71E026978F0DC7E9A8F /* SafetyChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD39ADEEC31C6351773BC4EC /* SafetyChecker.swift */; };
+		77B005D30A849A6FF304FE73 /* PlexSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5F554F4D890DC9E1F0B83 /* PlexSyncService.swift */; };
+		7DA7A036A4A2CCC81EF43067 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AEDEB48E19A05DB358A70C /* SettingsView.swift */; };
+		A2CE2988DA9AD8E42B32B4E1 /* TidyrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F99E73309DBC1C5261717E /* TidyrApp.swift */; };
+		A40450C312782E0556C5E7B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8235672A525606ACACC9F66 /* ContentView.swift */; };
+		A660FBA941917426855485AC /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777B14704C893ADC60676926 /* Rule.swift */; };
+		A787607B58F5D516DC2240B1 /* SourceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4FD03A54EF4E524F35FBD3 /* SourceStore.swift */; };
+		C0999FC72B35731C3E969484 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B719EA4AEC190107EACD7 /* KeychainHelper.swift */; };
+		E1627857BAEE89E4DA52C25D /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C55ECFF205F8CB6EF467FE6 /* Suggestion.swift */; };
+		E9FCA9023590F0CA549631EA /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64139E476C57B364B6BB3A42 /* WelcomeView.swift */; };
+		F55DF8E7F60A20A39C11A418 /* ChangeHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2A869AC112ECD1E05705D0 /* ChangeHistory.swift */; };
+		F57EB2464F9840220F841A34 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA9F78CB78CECF0C2586E8 /* Source.swift */; };
+		FFFEA3668A1427F85E7CCE6B /* SafetyWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9F2C2E270CE16F98DDA708 /* SafetyWarningView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A9F2C2E270CE16F98DDA708 /* SafetyWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyWarningView.swift; sourceTree = "<group>"; };
+		0EC947C808321B8C5B709B74 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		1D68C8655FA3763D0630E96C /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		2C55ECFF205F8CB6EF467FE6 /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+		4EE5F554F4D890DC9E1F0B83 /* PlexSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlexSyncService.swift; sourceTree = "<group>"; };
+		4F4FD03A54EF4E524F35FBD3 /* SourceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceStore.swift; sourceTree = "<group>"; };
+		5ACA9F78CB78CECF0C2586E8 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		63AEDEB48E19A05DB358A70C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		64139E476C57B364B6BB3A42 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		68C73962192F492216B8C112 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		6A9B719EA4AEC190107EACD7 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		71F99E73309DBC1C5261717E /* TidyrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidyrApp.swift; sourceTree = "<group>"; };
+		76BF56F358DEA63B1A6C10D7 /* Tidyr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tidyr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777B14704C893ADC60676926 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		800972B65C33355D199D847E /* ObsidianLinkRepairer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianLinkRepairer.swift; sourceTree = "<group>"; };
+		AF8902335F377F7486D4D143 /* AnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisService.swift; sourceTree = "<group>"; };
+		BD39ADEEC31C6351773BC4EC /* SafetyChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyChecker.swift; sourceTree = "<group>"; };
+		CB2A869AC112ECD1E05705D0 /* ChangeHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeHistory.swift; sourceTree = "<group>"; };
+		CF88B8E7B69A11CBFA99DE3C /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		D0D575EA0B35CD430F4C82E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E528F165D9F4A59872991376 /* PlexLibraryDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlexLibraryDetector.swift; sourceTree = "<group>"; };
+		E8235672A525606ACACC9F66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA643974939999FAB5ED6D80 /* Tidyr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tidyr.entitlements; sourceTree = "<group>"; };
+		FB879964CCFF563516C327E2 /* RuleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		53931B8462690CF5B3806C65 /* Tidyr */ = {
+			isa = PBXGroup;
+			children = (
+				AF8902335F377F7486D4D143 /* AnalysisService.swift */,
+				0EC947C808321B8C5B709B74 /* AnalysisView.swift */,
+				D0D575EA0B35CD430F4C82E9 /* Assets.xcassets */,
+				CB2A869AC112ECD1E05705D0 /* ChangeHistory.swift */,
+				E8235672A525606ACACC9F66 /* ContentView.swift */,
+				68C73962192F492216B8C112 /* GeminiService.swift */,
+				CF88B8E7B69A11CBFA99DE3C /* HistoryView.swift */,
+				6A9B719EA4AEC190107EACD7 /* KeychainHelper.swift */,
+				800972B65C33355D199D847E /* ObsidianLinkRepairer.swift */,
+				E528F165D9F4A59872991376 /* PlexLibraryDetector.swift */,
+				4EE5F554F4D890DC9E1F0B83 /* PlexSyncService.swift */,
+				777B14704C893ADC60676926 /* Rule.swift */,
+				FB879964CCFF563516C327E2 /* RuleStore.swift */,
+				1D68C8655FA3763D0630E96C /* RulesView.swift */,
+				BD39ADEEC31C6351773BC4EC /* SafetyChecker.swift */,
+				0A9F2C2E270CE16F98DDA708 /* SafetyWarningView.swift */,
+				63AEDEB48E19A05DB358A70C /* SettingsView.swift */,
+				5ACA9F78CB78CECF0C2586E8 /* Source.swift */,
+				4F4FD03A54EF4E524F35FBD3 /* SourceStore.swift */,
+				2C55ECFF205F8CB6EF467FE6 /* Suggestion.swift */,
+				FA643974939999FAB5ED6D80 /* Tidyr.entitlements */,
+				71F99E73309DBC1C5261717E /* TidyrApp.swift */,
+				64139E476C57B364B6BB3A42 /* WelcomeView.swift */,
+			);
+			path = Tidyr;
+			sourceTree = "<group>";
+		};
+		5E73258AD89E5B0DD7532ED5 = {
+			isa = PBXGroup;
+			children = (
+				53931B8462690CF5B3806C65 /* Tidyr */,
+				8CCB7221CE3F7FDF5930C8FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CCB7221CE3F7FDF5930C8FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76BF56F358DEA63B1A6C10D7 /* Tidyr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E08B799D011F347854C6DE8C /* Tidyr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80C0258205675A05A22CD78 /* Build configuration list for PBXNativeTarget "Tidyr" */;
+			buildPhases = (
+				24E01F852138DAA9244BA4E2 /* Sources */,
+				EC8BDFEA6483B507364C31CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tidyr;
+			packageProductDependencies = (
+			);
+			productName = Tidyr;
+			productReference = 76BF56F358DEA63B1A6C10D7 /* Tidyr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5833AE674B0FCF70E7762706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = E0372077C14A0C3B87F6194F /* Build configuration list for PBXProject "Tidyr" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5E73258AD89E5B0DD7532ED5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8CCB7221CE3F7FDF5930C8FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E08B799D011F347854C6DE8C /* Tidyr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8BDFEA6483B507364C31CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF677C92C3602E74921C962 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E01F852138DAA9244BA4E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB5B89C7006D50CEB2DF31E /* AnalysisService.swift in Sources */,
+				10F2730EAA668BE17EE6696C /* AnalysisView.swift in Sources */,
+				F55DF8E7F60A20A39C11A418 /* ChangeHistory.swift in Sources */,
+				A40450C312782E0556C5E7B4 /* ContentView.swift in Sources */,
+				2814BC372AAD79C56FD54E19 /* GeminiService.swift in Sources */,
+				5F8FD0DAFB9CD57D75CAAF4F /* HistoryView.swift in Sources */,
+				C0999FC72B35731C3E969484 /* KeychainHelper.swift in Sources */,
+				317F9B3BFB02859353394498 /* ObsidianLinkRepairer.swift in Sources */,
+				21A68EAF18E35CE8D1D170CC /* PlexLibraryDetector.swift in Sources */,
+				77B005D30A849A6FF304FE73 /* PlexSyncService.swift in Sources */,
+				A660FBA941917426855485AC /* Rule.swift in Sources */,
+				613AF008D1E0A9333978CC9E /* RuleStore.swift in Sources */,
+				4D832489CAD5CC573B637CC1 /* RulesView.swift in Sources */,
+				63B6F71E026978F0DC7E9A8F /* SafetyChecker.swift in Sources */,
+				FFFEA3668A1427F85E7CCE6B /* SafetyWarningView.swift in Sources */,
+				7DA7A036A4A2CCC81EF43067 /* SettingsView.swift in Sources */,
+				F57EB2464F9840220F841A34 /* Source.swift in Sources */,
+				A787607B58F5D516DC2240B1 /* SourceStore.swift in Sources */,
+				E1627857BAEE89E4DA52C25D /* Suggestion.swift in Sources */,
+				A2CE2988DA9AD8E42B32B4E1 /* TidyrApp.swift in Sources */,
+				E9FCA9023590F0CA549631EA /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3B1018FBAC312FE4590C20C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tidyr/Tidyr.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tidyr;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tidyr.app;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		A1A24CB6E1464467F21A9AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B5695D988E413D7B4BF62FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF56C1DF201E4B1D1187C334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tidyr/Tidyr.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tidyr;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tidyr.app;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0372077C14A0C3B87F6194F /* Build configuration list for PBXProject "Tidyr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5695D988E413D7B4BF62FDB /* Debug */,
+				A1A24CB6E1464467F21A9AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E80C0258205675A05A22CD78 /* Build configuration list for PBXNativeTarget "Tidyr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF56C1DF201E4B1D1187C334 /* Debug */,
+				3B1018FBAC312FE4590C20C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5833AE674B0FCF70E7762706 /* Project object */;
+}
